@@ -1,0 +1,42 @@
+{
+  "playerMonster": {
+    "id": "ySYebiDfB2z6lAurL6x0e",
+    "name": "mimi",
+    "type": "Water",
+    "health": 0,
+    "maxHealth": 100,
+    "attack": 20,
+    "defense": 15,
+    "speed": 10,
+    "level": 1,
+    "experience": 50,
+    "moves": [
+      {
+        "name": "Fireball",
+        "type": "Fire",
+        "damage": 40,
+        "accuracy": 90,
+        "description": "Launches a powerful ball of fire"
+      },
+      {
+        "name": "Aqua Jet",
+        "type": "Water",
+        "damage": 35,
+        "accuracy": 95,
+        "description": "Quick burst of pressurized water"
+      },
+      {
+        "name": "Tidal Wave",
+        "type": "Water",
+        "damage": 50,
+        "accuracy": 85,
+        "description": "Summons a massive wave"
+      }
+    ],
+    "wins": 1,
+    "totalBattles": 14
+  },
+  "lastSaved": "2024-12-29T11:11:43.663Z",
+  "totalWins": 1,
+  "totalBattles": 14
+}

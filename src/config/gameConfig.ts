@@ -13,4 +13,9 @@ export const GAME_CONFIG = {
     Earth: { Fire: 0.5, Water: 2, Air: 1, Earth: 1 },
     Air: { Fire: 1, Water: 1, Earth: 2, Air: 1 },
   },
+  battleRewards: {
+    baseExperience: 30,
+    winStreakBonus: 20,
+    winStreakThreshold: 3,
+  }
 };

@@ -12,6 +12,10 @@ export interface Monster {
   level: number;
   experience: number;
   moves: Move[];
+  wins: number;
+  totalBattles: number;
+  healingPotions: number;
+  consecutiveWins: number;
 }
 
 export interface Move {
@@ -28,4 +32,17 @@ export interface BattleState {
   turn: number;
   isPlayerTurn: boolean;
   log: string[];
+}
+
+export interface SaveGame {
+  playerMonster: Monster;
+  lastSaved: string;
+  totalWins: number;
+  totalBattles: number;
+}
+
+export interface BattleRewards {
+  experience: number;
+  healingPotions: number;
+  bonusReward?: string;
 }
